@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environment folders
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm or VSCode project files
+.idea/
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# Local cache files
+*.cache
+*.coverage
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ollama models and other large local files (optional)
+*.bin
+*.ckpt
+*.pth
+*.pt
+*.onnx
+models/

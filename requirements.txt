@@ -1,0 +1,9 @@
+langchain
+langchain_core
+streamlit
+langchain_huggingface
+dotenv
+langchain_groq
+langchain_core
+fastapi
+langserve
