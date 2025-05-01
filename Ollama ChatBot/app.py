@@ -33,7 +33,7 @@ def generate_response(question, engine_name, temperature, max_tokens):
 st.sidebar.title("Settings")
 
 # Select the OpenAI model
-engine = st.sidebar.selectbox("Select Ollama AI model", ["mistral", "ollama", "deepseek", "qwen"])
+engine = st.sidebar.selectbox("Select Ollama AI model", ["gemma", "llama", "deepseek", "moondream"])
 
 # Adjust response parameters
 temperature = st.sidebar.slider("Temperature", min_value=0.0, max_value=1.0, value=0.7)
